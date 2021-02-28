@@ -1,0 +1,52 @@
+.container {
+  display: grid;
+
+}
+
+
+.page {
+
+  .ant-tabs-nav {
+    font-family: 'Source Sans Pro Bold';
+  }
+  &__wrapper {
+    display: grid;
+    grid-gap: 1em;
+    grid-template-areas: "pagetitle" "menu" "filters" "content" "footer";
+    padding: 5rem;
+  }
+  &__title {
+    font-family: $font-family-bold;
+    grid-area: pagetitle;
+    margin: 2rem 0;
+    font-size: 4rem;
+    font-weight: 800;
+  }
+
+  &__menu {
+    grid-area: menu;
+    display: flex;
+    justify-content: space-between;
+  }
+  &__filters{
+    grid-area: filters;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__footer {
+    grid-area: footer;
+  }
+  &__plugins {
+    grid-area: footer;
+  }
+}
+
+
+.topics {
+  grid-column: center-start / center-end;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(10rem, 10rem));
+  gap: 1rem;
+  gap: 4rem;
+}

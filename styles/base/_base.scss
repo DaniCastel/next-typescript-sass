@@ -1,0 +1,68 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+
+  @media only screen and (max-width: $bp-largest) {
+    font-size: 50%;
+  }
+}
+
+body {
+  font-family: $font-family-base;
+  color: $color-grey-dark-3;
+  line-height: 1.6;
+}
+
+html,
+body,
+body > div:first-child,
+div#__next,
+div#__next > div {
+  height: 100%;
+}
+
+input {
+  border-radius: 5rem;
+  background-color: $color-grey-light-2;
+  border: none;
+  padding: 1.7rem;
+  font-family: "Source Sans Pro", Helvetica, Roboto, Arial, sans-serif;
+  ::placeholder {
+    /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: $color-grey-light-2;
+    opacity: 1; /* Firefox */
+  }
+  &:focus {
+    outline: none;
+    box-shadow: $active-shadow;
+  }
+}
+
+.btn {
+  border: none;
+  outline: none;
+    &-primary {
+      background-color: $color-primary;
+      color: $color-white;
+      outline: 0;
+      cursor: pointer;
+      border-radius: 5rem;
+      border: none;
+      padding: 0.5rem 4rem;
+      font-family: "Source Sans Pro SemiBold";
+      width: fit-content;
+      justify-self: center;
+      font-size: 1.6rem;
+      &:hover {
+        background-color: $color-secondary;
+    }
+  }
+}

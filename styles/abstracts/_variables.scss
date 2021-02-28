@@ -1,0 +1,66 @@
+// COLOR VARIABLES
+$color-primary: #3deb82;
+$color-primary-dark: #2ec269;
+
+$color-secondary: #f2e355;
+
+$color-grey-light-1: #f7f7f7;
+$color-grey-light-2: #f3f3f3;
+
+$color-grey-dark-1: #777;
+$color-grey-dark-2: #999;
+$color-grey-dark-3: #333;
+
+$color-white: #fff;
+$color-black: #000;
+
+$color-blind-1: #3deb82;
+$color-blind-2: #f2e355;
+$color-blind-3: #db7d58;
+$color-blind-4: #bb55f2;
+$color-blind-5: #1ebbeb;
+
+$color-pantone-1: #76aba2;
+$color-pantone-2: #f1d44b;
+$color-pantone-3: #e79465;
+$color-pantone-4: #a78cad;
+$color-pantone-5: #4c96b3;
+
+// FONT VARIABLES
+$font-family-base: "NotoSansJP", Roboto, sans-serif;
+$font-family-black: "NotoSansJP Black";
+$font-family-black-italic: "NotoSansJP BlackItalic";
+$font-family-bold: "NotoSansJP Bold";
+$font-family-bold-italic: "NotoSansJP BoldItalic";
+$font-family-semibold: "NotoSansJP SemiBold";
+$font-family-semibold-italic: "NotoSansJP SemiBoldItalic";
+$font-family-light: "NotoSansJP Light";
+$font-family-light-italic: "NotoSansJP LightItalic";
+$font-family-extra-light: "NotoSansJP ExtraLight";
+$font-family-extra-light-italic: "NotoSansJP ExtraLightItalic";
+$font-family-italic: "NotoSansJP Italic";
+
+$font-family-variant: "Raleway", Roboto, sans-serif;
+
+// RESPONSIVE BREAKPOINTS
+$bp-largest: 75em; // 1200px
+$bp-large: 62.5em; // 1000px
+$bp-medium: 50em; // 800px;
+$bp-small: 37.5em; // 600px;
+
+$gradient: linear-gradient(
+  to right,
+  rgba(123, 255, 35, 0.5),
+  rgba(61, 251, 251, 0.5)
+);
+
+$light-gradient: linear-gradient(
+  to right bottom,
+  rgba(230, 254, 255, 0.9),
+  rgba(251, 252, 253, 0.9)
+);
+
+$shadow: 0px 3px 11px -6px #636363;
+$active-shadow: 0px 0px 20px 0px rgba(35, 255, 90, 0.4);
+
+$bold-shadow: 0px 3px 11px -2px $color-grey-dark-3;
